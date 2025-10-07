@@ -1,74 +1,82 @@
 @import './constants.scss';
 
-/* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  /* 2. Remove default margin */
-  * {
-    margin: 0;
-    position: relative;
-  }
-  body {
-    /* 3. Add accessible line-height */
-    line-height: 1.5;
-    /* 4. Improve text rendering */
-    -webkit-font-smoothing: antialiased;
-  
-    height: 100%; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: $bandidas-black-1;
+/* reset.scss */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    position: relative;
-    top: -20px;
-  }
-  /* 5. Improve media defaults */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  /* 6. Inherit fonts for form controls */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  /* 7. Avoid text overflows */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  h3{
-    color: #e2c479;
-  }
-  /* 8. Improve line wrapping */
-  p {
-    text-wrap: pretty;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-    // text-transform: capitalize;
-  }
-  /*
-    9. Create a root stacking context
-  */
-  #root, #__next {
-    isolation: isolate;
-  }
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
 
-  html {
-    // scroll-snap-type: y proximity;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    height: 100%; /* Ensures full height for snapping */
+body {
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #111;
+  text-rendering: optimizeLegibility;
+}
 
-    @media (max-width:665px) {
-      scroll-snap-type:none;
-    }
-  }
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
 
-  section{
-    height: 100dvh;
-    max-height: 100dvh;
-    min-height: 100dvh;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    overflow: hidden;
-  }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bgLevel0 {
+  background-color: var(--level-0);
+}
+.bgLevel1 {
+  background-color: var(--level-1);
+}
+.bgLevel2 {
+  background-color: var(--level-2);
+}
+.bgLevel3 {
+  background-color: var(--level-3);
+}
+.bgLevel4 {
+  background-color: var(--level-4);
+}
+.bgLevel5 {
+  background-color: var(--level-5);
+}

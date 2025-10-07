@@ -1,3 +1,5 @@
+import "./styles/Index.scss";
+
 import {
   HashRouter,
   Routes,
