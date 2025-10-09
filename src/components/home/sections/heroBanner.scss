@@ -1,0 +1,76 @@
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .hi {}
+
+    .my-name {
+      display: flex;
+      gap: 10px;
+
+      .victor {}
+      .grinan {}
+    }
+
+    .developer {}
+  }
+}
+
+.welcome {
+  .welcome-to {}
+  .portfolio-word {}
+}
+
+.hand-write {}
+
+.school-icons {
+  --gap: 50px;
+  --speed: 18s;
+
+  position: relative;
+  overflow: hidden;
+  padding-block: 10px;
+
+  /* fade edges: A (left) out, B (right) in */
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 10%, #000 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 10%, #000 90%, transparent 100%);
+
+  .track {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: var(--gap);
+    width: max-content;
+    animation: scroll var(--speed) linear infinite;
+    will-change: transform;
+  }
+
+  img {
+    flex: 0 0 auto;
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+    display: block;
+  }
+
+//   @keyframes scroll {
+//     from { transform: translateX(0); }
+//     to { transform: translateX(-50%); } /* duplicated items once */
+//   }
+
+//   &:hover .track {
+//     animation-play-state: paused;
+//   }
+
+//   @media (prefers-reduced-motion: reduce) {
+//     .track {
+//       animation: none;
+//     }
+//   }
+}

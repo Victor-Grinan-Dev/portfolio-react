@@ -2,3 +2,12 @@
 @import "constants.scss";
 @import "animations.scss";
 @import "mixins.scss";
+
+//Pages
+@import "../components/home/homePage.scss";
+@import "../components/home/sections/heroBanner.scss";
+
+//UI Components
+@import "../components/UIs/navBar/navBar.scss";
+@import "../components/UIs/VG/VG.scss";
+@import "../components/UIs/sectionWrapper/sectionWrapper.scss";

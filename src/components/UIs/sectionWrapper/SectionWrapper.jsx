@@ -1,8 +1,10 @@
 
-const SectionWrapper = () => {
+const SectionWrapper = ({ children }, sectionId) => {
   return (
-    <div>SectionWrapper</div>
-  )
-}
+    <section id={sectionId} className={sectionId}>
+      {children}
+    </section>
+  );
+};
 
 export default SectionWrapper;

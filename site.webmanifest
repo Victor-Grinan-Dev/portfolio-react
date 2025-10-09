@@ -1,0 +1,70 @@
+{
+  "name": "Victor Griñán | New Project",
+  "short_name": "Preoject",
+  "description": "Personal portfolio showcasing projects, skills, and experience.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "categories": [
+    "portfolio",
+    "developer",
+    "designer",
+    "personal",
+    "it-support",
+    "network-administration",
+    "technology",
+    "engineering",
+    "systems",
+    "consulting",
+    "services"
+    ],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/homepage.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Homepage"
+    },
+    {
+      "src": "/screenshots/projects.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Projects Section"
+    },
+    {
+      "src": "/screenshots/contact.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Contact Section"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Projects",
+      "url": "/#projects",
+      "description": "View my latest projects"
+    },
+    {
+      "name": "Contact",
+      "url": "/#contact",
+      "description": "Get in touch"
+    }
+  ]
+}

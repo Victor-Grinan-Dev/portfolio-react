@@ -1,7 +1,9 @@
-
+import HeroBanner from "./sections/HeroBanner";
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <HeroBanner />
+    </div>
   )
 }
 
