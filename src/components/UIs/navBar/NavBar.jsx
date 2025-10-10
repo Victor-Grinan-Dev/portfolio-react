@@ -1,4 +1,5 @@
 import VG from "../VG/VG";
+import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light" id="menuBar">
@@ -19,23 +20,23 @@ const NavBar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li className="nav-item" id="aboutTab">
-                            <a className="nav-link" aria-current="page" href="#aboutArticle">About</a>
+                            <Link className="nav-link" aria-current="page" href="#aboutArticle">About</Link>
                             <div className="indicator" id="aboutTabIndicator"></div>
                         </li>
                         <li className="nav-item" id="portfolioTab">
-                            <a className="nav-link" href="#portfolio">Projects</a>
+                            <Link className="nav-link" href="#portfolio">Projects</Link>
                             <div className="indicator" id="portfolioTabIndicator"></div>
                         </li>
                         <li className="nav-item" id="skillsTab">
-                            <a className="nav-link" href="#skillsBoxes">Skills</a>
+                            <Link className="nav-link" href="#skillsBoxes">Skills</Link>
                             <div className="indicator" id="skillsTabIndicator"></div>
                         </li>
                         <li className="nav-item" id="certTab">
-                            <a className="nav-link" href="#certificates">Certificates</a>
+                            <Link className="nav-link" href="#certificates">Certificates</Link>
                             <div className="indicator" id="certTabIndicator"></div>
                         </li>
                         <li className="nav-item" id="contactTab">
-                            <a className="nav-link" href="#contact">Conctact Me</a>
+                            <Link className="nav-link" href="#contact">Conctact Me</Link>
                             <div className="indicator" id="contactTabIndicator"></div>
                         </li>
                         <li className="nav-item">

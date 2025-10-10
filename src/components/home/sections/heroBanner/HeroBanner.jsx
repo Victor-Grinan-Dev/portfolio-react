@@ -1,8 +1,8 @@
-import SectionWrapper from "../../UIs/sectionWrapper/SectionWrapper";
-import hbc from '../../../assets/icons/hbc.png';
-import taitotalo from '../../../assets/icons/taitotalo.jpeg';
-import metropolia from '../../../assets/icons/metropolia.jpeg';
-import meLogo from '../../../assets/icons/meLogo.png';
+import SectionWrapper from "../../../UIs/sectionWrapper/SectionWrapper";
+import hbc from '../../../../assets/icons/hbc.png';
+import taitotalo from '../../../../assets/icons/taitotalo.jpeg';
+import metropolia from '../../../../assets/icons/metropolia.jpeg';
+import meLogo from '../../../../assets/icons/meLogo.png';
 
 
 const HeroBanner = () => {
@@ -45,8 +45,10 @@ const HeroBanner = () => {
                         <img src={metropolia} alt="" aria-hidden="true" /> */}
                     </div>
                  </div>
+ 
+                 
+                <p>MADE BY ME WITH &#10084; IN HELSINKI, FINLAND</p>
             </div>
-                        
     </SectionWrapper>
     
   )
