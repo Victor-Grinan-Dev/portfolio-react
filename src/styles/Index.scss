@@ -3,9 +3,10 @@
 @import "animations.scss";
 @import "mixins.scss";
 
-//Pages
+//HomePage and sections
 @import "../components/home/homePage.scss";
-@import "../components/home/sections/heroBanner.scss";
+@import "../components/home/sections/heroBanner/heroBanner.scss";
+
 
 //UI Components
 @import "../components/UIs/navBar/navBar.scss";
