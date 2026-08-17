@@ -47,7 +47,7 @@ const HeroBanner = () => {
                  </div>
  
                  
-                <p>MADE BY ME WITH &#10084; IN HELSINKI, FINLAND</p>
+                
             </div>
     </SectionWrapper>
     

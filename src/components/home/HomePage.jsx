@@ -4,6 +4,7 @@ import Contact from "./sections/contact/Contact";
 import HeroBanner from "./sections/heroBanner/HeroBanner";
 import Projects from "./sections/projects/Projects";
 import Skills from "./sections/skills/Skills";
+import Footer from "./sections/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,8 @@ const HomePage = () => {
       <Skills />
       <Certificates />
       <Contact />
+      <Footer />
+
     </div>
   )
 }
