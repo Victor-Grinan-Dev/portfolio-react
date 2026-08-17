@@ -2,6 +2,7 @@ import SectionWrapper from "../../../UIs/sectionWrapper/SectionWrapper";
 import hbc from '../../../../assets/icons/hbc.png';
 import taitotalo from '../../../../assets/icons/taitotalo.jpeg';
 import metropolia from '../../../../assets/icons/metropolia.jpeg';
+import sda from '../../../../assets/icons/sda.png';
 import meLogo from '../../../../assets/icons/meLogo.png';
 
 
@@ -36,9 +37,9 @@ const HeroBanner = () => {
 
                  <div className="school-icons carruselle">
                     <div className="track">
+                        <img src={sda} alt="SDA" />
                         <img src={hbc} alt="HBC" />
                         <img src={taitotalo} alt="Taitotalo" />
-                        <img src={metropolia} alt="Metropolia" />
                         {/* duplicate for seamless loop */}
                         {/* <img src={hbc} alt="" aria-hidden="true" />
                         <img src={taitotalo} alt="" aria-hidden="true" />
