@@ -6,9 +6,16 @@
 //HomePage and sections
 @import "../components/home/homePage.scss";
 @import "../components/home/sections/heroBanner/heroBanner.scss";
-
+@import "../components/home/sections/skills/skills.scss";
+@import "../components/home/sections/certificates/certificates.scss";
+@import "../components/home/sections/contact/contact.scss";
+@import "../components/home/sections/projects/projects.scss";
+@import "../components/home/sections/about/about.scss";
 
 //UI Components
 @import "../components/UIs/navBar/navBar.scss";
 @import "../components/UIs/VG/VG.scss";
-@import "../components/UIs/sectionWrapper/sectionWrapper.scss";
+@import "../components/UIs/appButton/appButton.scss";
+@import "../components/UIs/sectionWrapper/sectionWrapper.scss"; 
+@import "../components/UIs/articleTitle/articleTitle.scss";
+

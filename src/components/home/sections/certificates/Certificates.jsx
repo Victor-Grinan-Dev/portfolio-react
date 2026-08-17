@@ -4,11 +4,51 @@ const Certificates = () => {
   return (
     <SectionWrapper>
 
-        <div id="certificates" className="certificates">
-            Certificates
-        </div>
+      <article id="certificates" className="bgLevel4">
+        <h2 class="section-title"> Certificates </h2>
+                   
+        <button className='appButton certDisplayMode'> Show as gallery </button>
+      </article>
+
     </SectionWrapper>
   )
 }
 
 export default Certificates
+
+/**
+        <article id="certificates" class="bgLevel4">
+            <h2 class="section-title"> Certificates </h2>
+            <button class='appButton certDisplayMode'> Show as gallery </button>
+            <br>
+            <span class="gallery invisible">
+                <div class="main-certificates certificates"></div>
+                <div class="online-certificates1 certificates"></div>
+                <div class="online-certificates2 certificates"></div>
+                <div class="online-certificates3 certificates"></div>
+                <div class="online-certificates4 certificates"></div>
+
+                <br>
+                <button class="moreCertificates appButton">
+                    Show Irrelevant certificates
+                </button>
+                <br>
+
+                <div class="othersCertificates certificates invisible">
+                    { <!--invisible--> }
+                </div>
+            </span>
+
+
+
+            <div class="carousel">
+                <button class="appButton carousel__button carousel__button--left is-hidden">&#60;</button>
+                <div class="carousel__track-container">
+                    <ul class="carousel__track"></ul>
+                    <div class="carousel__nav"></div>
+                </div>
+                <button class="appButton carousel__button carousel__button--right">&#62;</button>
+            </div>
+
+        </article>
+ */

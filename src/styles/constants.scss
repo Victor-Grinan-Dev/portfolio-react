@@ -29,3 +29,29 @@
   --parragraph-font: Montserrat;
   --hand-write: Dancing Script;
 }
+
+/*ICONS & IMAGES*/
+.mid-img {
+  width: 45px;
+}
+
+.small-img {
+  width: 25px;
+}
+.tiny-img {
+  width: 15px;
+}
+
+.centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+

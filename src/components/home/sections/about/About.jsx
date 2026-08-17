@@ -1,12 +1,14 @@
 import SectionWrapper from "../../../UIs/sectionWrapper/SectionWrapper";
-
+import ArticleTitle from "../../../UIs/articleTitle/ArticleTitle";
+import about from '../../../../assets/icons/ui/about.png';
 const About = () => {
   return (
     <SectionWrapper id="about" classNameName="about">
 
-                    <article id="aboutArticle" className="bgLevel1">
-                    
-            <h2 className="title"> About me </h2>
+      <article id="aboutArticle" className="bgLevel1">
+                      
+            <ArticleTitle title="About me" img={about}/>
+            
 
             <p className="about">
                 <br />

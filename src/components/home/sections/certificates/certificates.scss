@@ -1,0 +1,140 @@
+/*certificates*/
+#certificates {
+  background-color: var(--level-4);
+}
+
+.certificate,
+.certificates {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certificate {
+  width: 30vw;
+  min-width: 280px;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.document {
+  width: 200px;
+}
+
+.docLink {
+  filter: grayscale(1);
+}
+
+.docLink:hover {
+  box-shadow: 0 0 10px white;
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+.certView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.certView:hover {
+  color: var(--highlight);
+}
+
+/*certificate carousel*/
+.carousel__track-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.carousel,
+.carousel__track-container,
+.carousel__track,
+.carousel__slide,
+.carousel__image{
+    height: 55vh;
+    max-height: 600px;
+    max-width: 470px;
+    display: flex;
+}
+
+.carousel__track,
+.carousel__track-container,
+.carousel__slide,
+.carousel__image,
+.carousel__nav{
+  width: 100%;
+}
+.carousel__track,
+.carousel__slide{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.carousel {
+    position: relative;
+    width: 98vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.carousell__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.carousell__button--right {
+    right: -40px;
+}
+.carousell__button--left {
+    left: -40px;
+}
+.carousel__track-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__track {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   transition: all 500ms ease-in;
+   position:relative;
+}
+.carousel__slide {   
+    position: absolute;
+    top: auto;
+    bottom: auto;
+}
+
+.carousel__image{
+  object-fit:contain;
+}
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: var(--grey-2);
+    margin: 0.5vw;
+    cursor: pointer;
+}
+
+.current_dot {
+    background: var(--highlight);
+}

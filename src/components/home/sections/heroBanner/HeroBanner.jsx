@@ -7,9 +7,9 @@ import meLogo from '../../../../assets/icons/meLogo.png';
 
 const HeroBanner = () => {
   return (
-    <SectionWrapper sectionId="heroBanner"  background="">
+    <SectionWrapper sectionId="heroBanner" className="centered">
 
-            <div className='bannerContent'>
+            <div className='bannerContent' className="bgLevel0">
                 <div className="text-intro">
                     <div id="intro" className="intro">
                         <h4 id="hi" className="hand-write hi">Hi, I'm</h4>
@@ -34,7 +34,7 @@ const HeroBanner = () => {
                     <img src={meLogo} alt="melogo" />
                  </div>
 
-                 <div className="school-icons carruselle">
+                 <div className="school-icons">
                     <div className="track">
                         <img src={sda} alt="SDA" />
                         <img src={hbc} alt="HBC" />
