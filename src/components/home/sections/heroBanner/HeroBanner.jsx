@@ -1,7 +1,6 @@
 import SectionWrapper from "../../../UIs/sectionWrapper/SectionWrapper";
 import hbc from '../../../../assets/icons/hbc.png';
 import taitotalo from '../../../../assets/icons/taitotalo.jpeg';
-import metropolia from '../../../../assets/icons/metropolia.jpeg';
 import sda from '../../../../assets/icons/sda.png';
 import meLogo from '../../../../assets/icons/meLogo.png';
 
