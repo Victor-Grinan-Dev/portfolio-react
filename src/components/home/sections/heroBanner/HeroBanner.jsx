@@ -7,17 +7,17 @@ import meLogo from '../../../../assets/icons/meLogo.png';
 
 const HeroBanner = () => {
   return (
-    <SectionWrapper sectionId="heroBanner" className="centered">
+    <SectionWrapper sectionId="heroBanner" className="centered bgLevel0">
 
-            <div className='bannerContent' className="bgLevel0">
+            <div className="bgLevel0 bannerContent">
                 <div className="text-intro">
                     <div id="intro" className="intro">
                         <h4 id="hi" className="hand-write hi">Hi, I'm</h4>
-                        <h2 id="my-name" className="hand-write my-name">
+                        <h1 id="my-name" className="hand-write my-name">
                             <div id="victor" className="hand-write victor">Victor</div>
                             <div id="grinan" className="hand-write grinan"> Griñán</div>
-                        </h2>
-                        <h4 id="developer" className="hand-write"> an <span>IT specialist</span> and <span>web developer</span></h4>
+                        </h1>
+                        <h4 id="developer" className="hand-write"> a <span>web developer</span> and <span>IT specialist</span></h4>
                     </div>
                             
                     <div id="welcome" className="welcome">
@@ -36,9 +36,9 @@ const HeroBanner = () => {
 
                  <div className="school-icons">
                     <div className="track">
-                        <img src={sda} alt="SDA" />
-                        <img src={hbc} alt="HBC" />
-                        <img src={taitotalo} alt="Taitotalo" />
+                        <a href="https://sdaproject.se/" target="_blank" rel="noopener noreferrer"><img src={sda} alt="SDA" className="school-icon SDA"/></a>
+                        <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank" rel="noopener noreferrer"><img src={hbc} alt="HBC" className="school-icon HBC"/></a>
+                        <a href="https://www.taitotalo.fi/" target="_blank" rel="noopener noreferrer"><img src={taitotalo} alt="Taitotalo" className="school-icon taitotalo"/></a>
                         {/* duplicate for seamless loop */}
                         {/* <img src={hbc} alt="" aria-hidden="true" />
                         <img src={taitotalo} alt="" aria-hidden="true" />

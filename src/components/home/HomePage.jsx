@@ -15,7 +15,6 @@ const HomePage = () => {
       <Skills />
       <Certificates />
       <Contact />
-
     </div>
   )
 }

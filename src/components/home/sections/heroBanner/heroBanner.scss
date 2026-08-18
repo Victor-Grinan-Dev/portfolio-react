@@ -6,36 +6,54 @@
   height: 90dvh;
   gap: 5vh;
   padding-top: 10vh;
+  width: 100%;
 
 
   .text-intro{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        
         gap: 5vh;
         .intro {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-          
+            align-items: center;
 
             .hi {}
 
             .my-name {
             display: flex;
+            flex-direction: row;
             gap: 10px;
+            
 
             .victor {}
             .grinan {}
             }
 
-            .developer {}
+            .developer {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                span {
+                    color: var(--highlight);
+                }
+            }
+            #developer {
+                gap: 5px;
+            }
         }
     }
 
     .welcome {
     .welcome-to {}
-    .portfolio-word {}
+    .portfolio-word {
+        width: 50vw;
+        display: flex; 
+        align-items: center;
+        flex-direction: row;
+    }
     }
 
     .hand-write {}
@@ -112,4 +130,8 @@
 
 #intro {
   font-family: "Dancing Script", cursive;
+}
+
+#heroBanner{
+    background-color: var(--level-0);
 }
