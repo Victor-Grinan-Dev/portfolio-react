@@ -10,10 +10,10 @@ import youtube from "../../../../assets/icons/youtube.png"
 
 const Contact = () => {
   return (
-    <SectionWrapper id='contact' className="bgLevel5">
-   
+    <SectionWrapper>
+        <article id="contactArticle" className="contactArticle contact-gradient">
 
-        <h4 id='contact' className="section-title centered">Conctact me:</h4>
+        <h4 id='contact' className=" section-title centered">Conctact me:</h4>
 
         <div className="email">
 
@@ -61,7 +61,7 @@ const Contact = () => {
           <span className="material-symbols-outlined">
                 arrow_upward
             </span></button>
-
+        </article>
     </SectionWrapper>
   )
 }

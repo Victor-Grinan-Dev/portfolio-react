@@ -1,9 +1,13 @@
 /*ABOUT SECTION*/
+.about-gradient{
+    background: linear-gradient(to bottom, var(--level-0), var(--level-1));
+}
 
 .about{
   font-size: 18px;
   max-width: 600px;
   padding: 15px;
+  
 }
 
 .about-link{

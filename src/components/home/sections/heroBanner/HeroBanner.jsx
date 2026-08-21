@@ -6,8 +6,11 @@ import meLogo from '../../../../assets/icons/meLogo.png';
 
 
 const HeroBanner = () => {
+    const extraStyles = {
+        background: "linear-gradient(to bottom, var(--level-1), var(--level-2))"
+    }
   return (
-    <SectionWrapper sectionId="heroBanner" className="centered bgLevel0">
+    <SectionWrapper sectionId="heroBanner" className="centered bgLevel0" extraStyles={extraStyles}>
 
             <div className="bgLevel0 bannerContent banner">
                 <div className="text-intro">

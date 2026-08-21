@@ -7,7 +7,7 @@ import vue from "../../../../assets/icons/vue.png";
 const Projects = () => {
   return (
       <SectionWrapper>
-        <article id="portfolio" className="bgLevel2 centered">
+        <article id="portfolio" className="project-gradient centered">
 
             <h2 id="project_title" className="title section-title">Projects:</h2>
 

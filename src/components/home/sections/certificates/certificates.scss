@@ -138,3 +138,7 @@
 .current_dot {
     background: var(--highlight);
 }
+
+.certificates-gradient {
+  background: linear-gradient(to bottom, var(--level-3), var(--level-4));
+}

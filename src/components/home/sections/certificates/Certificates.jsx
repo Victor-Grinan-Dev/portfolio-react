@@ -4,7 +4,7 @@ const Certificates = () => {
   return (
     <SectionWrapper>
 
-      <article id="certificates" className="bgLevel4">
+      <article id="certificates" className="certificates-gradient">
         <h2 class="section-title"> Certificates </h2>
                    
         <button className='appButton certDisplayMode'> Show as gallery </button>

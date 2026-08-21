@@ -11,7 +11,7 @@ import positiveVibes from "../../../../assets/icons/ui/positive-vibes.png"
 const Skills = () => {
   return (
     <SectionWrapper >   
-        <article id="skillsBoxes" className="bgLevel3 skillsBoxes">
+        <article id="skillsBoxes" className="skills-gradient skillsBoxes">
 
             <div id="skillArticle">
                 <h2 id="skills" className="section-title"> Skills </h2>

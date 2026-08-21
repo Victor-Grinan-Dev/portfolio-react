@@ -145,3 +145,7 @@
   flex: 1;
   text-align: right;
 }
+
+.project-gradient {
+  background: linear-gradient(to bottom, var(--level-1), var(--level-2));
+}

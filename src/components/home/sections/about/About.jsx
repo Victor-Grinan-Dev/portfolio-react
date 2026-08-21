@@ -4,7 +4,7 @@ import about from '../../../../assets/icons/ui/about.png';
 import AppButton from "../../../UIs/appButton/AppButton";
 const About = () => {
   return (
-    <SectionWrapper id="about" bgcolor={"bgLevel1"}>
+    <SectionWrapper id="about" bgcolor={"about-gradient"}>
 
       {/* <article id="aboutArticle" className="bgLevel1"> */}
                       

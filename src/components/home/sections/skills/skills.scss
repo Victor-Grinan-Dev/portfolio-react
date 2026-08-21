@@ -187,3 +187,7 @@ gap: 10px;
   text-align: start;
   margin-bottom: 3px;
 }
+
+.skills-gradient {
+  background: linear-gradient(to bottom, var(--level-2), var(--level-3));
+}

@@ -38,3 +38,7 @@
   align-items: center;
   width: 80vw;
 }
+
+.contact-gradient {
+  background: linear-gradient(to bottom, var(--level-4), var(--level-5));
+}
