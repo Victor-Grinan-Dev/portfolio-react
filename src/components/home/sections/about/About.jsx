@@ -1,11 +1,12 @@
 import SectionWrapper from "../../../UIs/sectionWrapper/SectionWrapper";
 import ArticleTitle from "../../../UIs/articleTitle/ArticleTitle";
 import about from '../../../../assets/icons/ui/about.png';
+import AppButton from "../../../UIs/appButton/AppButton";
 const About = () => {
   return (
-    <SectionWrapper id="about" classNameName="about">
+    <SectionWrapper id="about" bgcolor={"bgLevel1"}>
 
-      <article id="aboutArticle" className="bgLevel1">
+      {/* <article id="aboutArticle" className="bgLevel1"> */}
                       
             <ArticleTitle title="About me" img={about}/>
             
@@ -21,14 +22,19 @@ const About = () => {
                     Business College (HBC)</a>, where I gained a solid understanding of programming, algorithms, and
                 software design principles.
                 <br />
+                <br />
+                 In June 2026 I got the certificate as <b className="keyword">IT-support</b> from <a className="about-link" href="https://www.taitotalo.fi/" target="blank">Taitotalo</a>.
+                <br />
+                <br />
                 My background is in pedagogy and team leading. This has taught me to see the value of
                 good <b className="keyword">group dynamics</b>. In my previous workplaces, I have quickly advanced to responsible
-                positions. I am particularly good at problem solving and <b className="keyword">customer service</b>. My hobbies have taught me <b className="keyword">patience</b>
-                and <b className="keyword">perseverance</b>. Now I'm studying to be <b className="keyword">IT-support</b> staff at <a className="about-link" href="https://www.taitotalo.fi/" target="blank">Taitotalo</a>.
+                positions. I am particularly good at problem solving and <b className="keyword">customer service</b>. My hobbies have taught me <b className="keyword">patience </b>
+                and <b className="keyword">perseverance</b>.
                 <br />
-                "I am the missing link between IT and the user."
+                "I am the missing link between IT team and the users/customers."
+              </p>
                 
-            </p>
+{/* 
             <br />
             <div className='cvBtns'>
                 <p>
@@ -92,11 +98,15 @@ const About = () => {
                 </div>
             </div>
 
+*/}
+
           
             <br />
-            <h2 className="title"> About this page </h2>
+            <AppButton className="appButton" />
+            <br />
+            <br />
 
-            <p className="about">
+            {/* <p className="about">
                 This is just a static but mobile-friendly page displaying some of the small projects that I have created
                 as part of my web development learning journey. I started this portfolio when I was schooling and kept
                 adding features and small improvements ever since, without changing much the <a className="about-link"
@@ -105,9 +115,9 @@ const About = () => {
                     target="blank">HBC</a> 01/2022.
                 <br />
                 <a className="about-link" target="_blank" href="https://github.com/Victor-Grinan-Dev/Portfolio"> Source code in Github</a>
-            </p>
+            </p> */}
 
-        </article>
+        {/* </article> */}
 
     </SectionWrapper>
   )

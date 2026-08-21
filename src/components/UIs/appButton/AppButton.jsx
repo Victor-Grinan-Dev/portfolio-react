@@ -1,7 +1,9 @@
 
-const AppButton = () => {
+const AppButton = ({caption, fx}) => {
   return (
-    <div>AppButton</div>
+    <div className="appButton" onClick={fx}>
+      {caption || "Read more"}
+    </div>
   )
 }
 

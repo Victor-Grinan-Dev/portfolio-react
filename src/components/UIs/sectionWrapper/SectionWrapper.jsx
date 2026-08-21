@@ -1,7 +1,7 @@
 
-const SectionWrapper = ({ children }, sectionId) => {
+const SectionWrapper = ({ children, id, bgcolor }) => {
   return (
-    <section id={sectionId} className={sectionId}>
+    <section id={id} className={bgcolor}>
       {children}
     </section>
   );
