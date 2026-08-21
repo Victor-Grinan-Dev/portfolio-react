@@ -9,7 +9,7 @@ const HeroBanner = () => {
   return (
     <SectionWrapper sectionId="heroBanner" className="centered bgLevel0">
 
-            <div className="bgLevel0 bannerContent">
+            <div className="bgLevel0 bannerContent banner">
                 <div className="text-intro">
                     <div id="intro" className="intro">
                         <h4 id="hi" className="hand-write hi">Hi, I'm</h4>

@@ -196,7 +196,7 @@ const Skills = () => {
                         <div className="subSkills"></div>
                         <div>😎</div>
                     </div>
-                </div>allSkill end
+                </div> 
                 
             </div>
         </article>
